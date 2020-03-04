@@ -1,0 +1,12 @@
+schema {
+    query: FavoriteHero
+}
+
+type FavoriteHero {
+  hero: Hero
+}
+
+type Hero {
+  name: String
+  appearsIn: String
+}
